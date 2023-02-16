@@ -3,3 +3,6 @@ Sistema de chamada e gerenciamento de rede social escolar e alunos, na qual o us
 
 Quer dar uma conferida como esta o sistema? Da uma olhada nesse:
 https://cham4-da-plusplusss.000webhostapp.com/
+
+
+Neste Sistema utilizei HTML,CSS, JS,PHP e SQL.
