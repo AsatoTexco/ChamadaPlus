@@ -1,0 +1,101 @@
+/* _____________________________MENU_________________________ */
+
+#menu {
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    
+}
+
+
+
+#menu ul {
+    
+    max-width: 100%;
+    list-style: none;
+    padding: 20px;
+    float: left;
+    align-items: center;
+    position: absolute;
+    margin: 0 auto;    
+    flex-flow: row nowrap;
+    display: flex;
+    
+}
+
+#menu ul li {
+    display: inline;
+    float: left;
+     margin-left: 50px;
+
+     flex-flow: row nowrap;
+     display: flex;
+    
+    
+    
+
+
+
+}
+
+#menu ul li a {
+
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    transition:  background .4s;
+    border-radius: 10px;
+
+
+}
+
+#menu ul li a:hover {
+
+background-color: #fff;
+color: black;
+transition: all 0.5s;
+transform: translateY(-8px);
+
+}
+
+#menu ul li:last-child a {
+    
+    float: right;
+    background-color: #fff;
+    color: black;
+    margin-left: 25%;
+
+
+}
+
+ #menu ul li:last-child a:hover {
+
+    background-color:green;
+    transition: all 0.5s;
+    color: white;
+     
+
+
+}
+
+ .entrar{
+
+    display: flex;
+    float: right;
+
+ }
+
+ @media(max-width: 600px){
+    #menu
+    {
+        background-color: black;
+    }
+    }
+    

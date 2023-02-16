@@ -1,0 +1,288 @@
+/* _____________________________________MENU_________________________________________ */
+
+
+.nav-button{
+    border: 0;
+    display: none;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: black;
+    margin: 8px;
+    cursor: pointer;
+    position: sticky;
+    top: 8px;
+    z-index: 8;
+}
+.nav-button i{
+   color:#fff;
+   
+}
+.overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    position: fixed;
+    width: 0;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+.overlay-content{
+    position: relative;
+    
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.overlay a:last-child{
+    padding: 8px;
+    text-decoration: none;
+    color: red;
+    display: block;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus{
+
+    color: white;
+}
+.closebtn{
+
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 10px;
+    border-radius: 20px;
+   
+    
+   
+
+}
+.nome_perfil{
+    color: white;
+    
+}
+
+/* ========================= media query ====================*/
+@media(max-width: 830px){
+#menu
+{
+    display: none;
+}
+.bemvindo{
+    font-size: 20px;
+    justify-content: center;
+}
+.area-info{
+
+    display: block;
+
+
+    }
+
+    /* img{
+        height: 64px;
+        width: 64px;
+        padding-top: 10px;
+        margin: 0 auto;
+        
+    } */
+    .area-info{
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .bemvindo1{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+
+    }
+    .bemvindo{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+
+    }
+    .msg-bemvindo{
+        margin-top: 200px;
+    }
+    .conteiner1{
+        margin-top: 200px;
+    }
+    .nav-button{
+
+        display: block;
+
+    }
+
+    .container_perfil{
+        display: block;
+
+    }
+    
+    
+    .nome_ft_perfil{
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .serie_perfil{
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    
+    .area_link_imagem_perfil{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .area_
+    {
+        display: flex;
+        width: 100%;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .about{
+        min-width: 0;
+    }
+    .descricao{
+        text-align: center;
+    }
+
+    .ft_perfil_img, .ft_perfil_img1{
+
+        margin-right: 0;
+    }
+    .areaS{
+        width: 100%;
+    }
+    .area-input-ano{
+        display: none;
+    }
+    
+    .area-input-turma{
+        display: none;
+    }
+    .bot-sub{
+
+        margin-left: 10px;
+        padding: 15px;
+        width: auto;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        background-image: linear-gradient(45deg,green, black);
+        cursor: pointer;
+        
+        }
+
+    .sobre{
+
+        margin-left: 5%;
+        margin-right: 5%;
+            
+    }
+    .presenca_nome{
+        display: none;
+    }
+    .area-input-ano{
+        display: none;
+    }
+    
+    .area-input-turma{
+        display: none;
+    }
+
+
+    .content-conteiner{
+
+        display: inline;
+        
+        
+    }
+    .area-info{
+        
+        width: 90%;
+    }
+    .info{
+        text-align: center;
+    }
+    .area-img-info{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    /* seguidores responsive  */
+    .content{
+       
+        height: 80%;
+        /* mobile 80% / pc 50%  cell */
+        width: 100%;
+        /* mobile 100% / pc 50%  cell */
+       
+      
+      }
+    
+      .area_alunos{
+        width: 100%;
+        /* mobile 90% / pc 80%  cell */
+        height: 100%;
+        /* background-color: red; */
+      }
+    
+} 
+
+
+
+/* ========================= FIM media query ====================*/
+
+.img_area{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+    }
+    .img_perfil{
+    margin-right: 20px;
+    
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    padding: 3px;
+    position: relative ;
+    background-color: green;
+    max-width: 64px;
+    
+    }
+    
+   
+    
