@@ -4,7 +4,7 @@ Sistema de chamada e gerenciamento de rede social escolar e alunos, na qual o us
 
 Sistema utiliza um leitor de codigo de barras para fazer a leitura de presença do aluno.
 
-Quer dar uma conferida como esta o sistema? Da uma olhada nesse:
+Quer dar uma conferida como esta o sistema? Da uma olhada nesse link:
 https://cham4-da-plusplusss.000webhostapp.com/
 
 
